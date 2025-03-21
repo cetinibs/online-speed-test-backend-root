@@ -12,8 +12,8 @@ import (
 	"sort"
 	"bytes"
 
-	"github.com/cetinibs/online-speed-test-backend/internal/models"
-	"github.com/cetinibs/online-speed-test-backend/internal/repositories"
+	"github.com/cetinibs/online-speed-test-backend-root/internal/models"
+	"github.com/cetinibs/online-speed-test-backend-root/internal/repositories"
 )
 
 // SpeedTestService handles the business logic for speed testing

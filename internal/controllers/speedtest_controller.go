@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/cetinibs/online-speed-test-backend/internal/services"
+	"github.com/cetinibs/online-speed-test-backend-root/internal/services"
 )
 
 // SpeedTestController handles HTTP requests for speed testing
@@ -130,3 +130,4 @@ func (c *SpeedTestController) DeleteResult(w http.ResponseWriter, r *http.Reques
 	w.WriteHeader(http.StatusOK)
 	json.NewEncoder(w).Encode(map[string]string{"status": "success"})
 }
+
